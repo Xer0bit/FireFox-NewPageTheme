@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Material You NewTab",
-  "version": "1.2",
-  "description": "A Simple New Tab (browser's home page) inspired by Google's 'Material You' design.",
+  "name": "Material You NewTab Dark Mode Only",
+  "version": "1.0",
+  "description": "A Simple New Tab (browser's home page) inspired by Google's 'Material You' design. Dark Mode",
   "permissions": [
     "activeTab",
     "storage"
@@ -35,7 +35,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "imtiyaz.india@proton.me"
+      "id": "slimXZX@proton.me"
     }
   }
 }

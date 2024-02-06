@@ -40,10 +40,10 @@ window.addEventListener('DOMContentLoaded', async () => {
         const parsedData = await data.json();
 
         // Weather data
-        const conditionText = parsedData.current.condition.text;
-        const tempCelsius = Math.round(parsedData.current.temp_c);
-        const humidity = parsedData.current.humidity;
-        const feelsLikeCelsius = parsedData.current.feelslike_c;
+        // const conditionText = parsedData.current.condition.text;
+        // const tempCelsius = Math.round(parsedData.current.temp_c);
+        // const humidity = parsedData.current.humidity;
+        // const feelsLikeCelsius = parsedData.current.feelslike_c;
 
         // Update DOM elements
         document.getElementById("conditionText").textContent = conditionText;
