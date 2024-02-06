@@ -41,12 +41,12 @@ window.addEventListener('DOMContentLoaded', async () => {
 
         // Weather data
         // const conditionText = parsedData.current.condition.text;
-        // const tempCelsius = Math.round(parsedData.current.temp_c);
-        // const humidity = parsedData.current.humidity;
-        // const feelsLikeCelsius = parsedData.current.feelslike_c;
+        const tempCelsius = Math.round(parsedData.current.temp_c);
+        const humidity = parsedData.current.humidity;
+        const feelsLikeCelsius = parsedData.current.feelslike_c;
 
         // Update DOM elements
-        document.getElementById("conditionText").textContent = conditionText;
+
         document.getElementById("temp").textContent = `${tempCelsius}°`;
         document.getElementById("humidityLevel").textContent = `Humidity ${humidity}%`;
         document.getElementById("feelsLike").textContent = `Feels ${feelsLikeCelsius}°C`;
